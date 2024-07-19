@@ -27,7 +27,7 @@
                 </div>
                 <#if social.providers??>
                     <#list social.providers as idp>
-                        <a href="${url.loginAction}?provider=${idp.alias}" class="social-link">
+                        <a href=${idp.loginUrl} class="social-link">
                             <img class="icon" src="${url.resourcesPath}/icons/${idp.alias}.svg" alt="${idp.displayName} Icon">
                             ${idp.displayName}
                         </a>
