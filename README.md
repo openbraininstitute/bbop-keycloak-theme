@@ -13,4 +13,4 @@ A custom theme for the login page of the BBOP Keycloak instance, designed to fac
 The development of this software was supported by funding to the Blue Brain Project, a research center of the École polytechnique fédérale de
 Lausanne (EPFL), from the Swiss government's ETH Board of the Swiss Federal Institutes of Technology.
 
-Copyright © 2015-204 Blue Brain Poject/EPFL
+Copyright © 2015-2024 Blue Brain Poject/EPFL
