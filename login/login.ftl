@@ -1,4 +1,3 @@
-<!-- ~/keycloak-themes/my-custom-theme/login/login.ftl -->
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -33,6 +32,51 @@
                         </a>
                     </#list>
                 </#if>
+            </div>
+	    <div class="divider-text">or</div>
+            <div class="form-container">
+                <form
+		    action="${url.loginAction}"
+		    class="login-form"
+		    id="kc-form-login"
+		    method="post"
+		    onsubmit="login.disabled = true; return true;">
+                    <fieldset class="login-form-group">
+                        <label class="login-form-label" for="username">User id</label>
+                        <input
+			    aria-invalid=""
+			    autocomplete="off"
+			    class="login-form-input"
+			    id="username"
+			    name="username"
+			    placeholder="Enter your user id here..."
+			    required
+			    type="text"
+			    value="">
+                    </fieldset>
+                    <fieldset class="login-form-group">
+                        <label class="login-form-label" for="password">Password</label>
+                        <input
+			    aria-invalid=""
+			    autocomplete="off"
+			    class="login-form-input"
+			    id="password"
+			    name="password"
+			    placeholder="⁎⁎⁎⁎"
+			    required
+			    type="password"
+			    value="">
+                    </fieldset>
+                    <input type="hidden" id="id-hidden-input" name="credentialId" />
+	            <input
+			class="login-form-submit"
+			name="login"
+			type="submit"
+			value="Sign In" />
+                </form>
+		<#if message?has_content>
+		<div class="login-validation-container validation-${message.type}"><span>${message.summary}</span></div>
+		</#if>
             </div>
         </div>
     </div>
