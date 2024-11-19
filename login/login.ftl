@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <style>
         body {
-            background: url('${url.resourcesPath}/img/hippocampus.png') no-repeat center right fixed #002766; 
+            background: url('${url.resourcesPath}/img/hippocampus.png') no-repeat center right fixed #002766;
             background-size: contain;
         }
     </style>
@@ -19,7 +19,7 @@
         <div class="login-header">
             <img class="icon" src="${url.resourcesPath}/img/logo.png?v=2" alt="BBOP logo">
         </div>
-        <div class="login-wrapper"> 
+        <div class="login-wrapper">
             <div class="login-container">
                 <div class="login-title">
                     <p>Sign in to your account</p>
@@ -42,14 +42,14 @@
 		    method="post"
 		    onsubmit="login.disabled = true; return true;">
                     <fieldset class="login-form-group">
-                        <label class="login-form-label" for="username">User id</label>
+                        <label class="login-form-label" for="username">Username</label>
                         <input
 			    aria-invalid=""
 			    autocomplete="off"
 			    class="login-form-input"
 			    id="username"
 			    name="username"
-			    placeholder="Enter your user id here..."
+			    placeholder="Enter your username"
 			    required
 			    type="text"
 			    value="">
