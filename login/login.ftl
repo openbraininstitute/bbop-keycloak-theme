@@ -19,7 +19,7 @@
 <body>
   <div class="page-container">
     <div class="login-header">
-      <img class="icon" src="${url.resourcesPath}/img/logo.png?v=2" alt="BBOP logo">
+      <img class="icon" src="${url.resourcesPath}/img/obi_logo.svg" alt="OBI logo">
     </div>
     <div class="login-wrapper">
       <div class="login-container">

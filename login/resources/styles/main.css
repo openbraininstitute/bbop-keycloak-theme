@@ -40,6 +40,13 @@ body {
   margin-bottom: 20px;
 }
 
+.login-header img.icon {
+  height: 56px;
+  width: 176px;
+  top: 2.4rem;
+  left: 2.4rem;
+}
+
 .login-title,
 .divider-text {
   color: #fff;
