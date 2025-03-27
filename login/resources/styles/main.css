@@ -5,6 +5,7 @@ body {
   height: 100vh;
   margin: 0;
 }
+
 .page-container {
   padding: 30px;
   height: 92vh;
@@ -46,8 +47,8 @@ body {
   position: absolute;
   height: 56px;
   width: 176px;
-  top: 2.4rem;
-  left: 2.4rem;
+  top: 2.2rem;
+  left: 2.3rem;
 }
 
 .login-title,
