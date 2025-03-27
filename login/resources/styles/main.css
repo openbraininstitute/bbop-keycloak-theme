@@ -41,6 +41,7 @@ body {
 }
 
 .login-header img.icon {
+  position: absolute;
   height: 56px;
   width: 176px;
   top: 2.4rem;
