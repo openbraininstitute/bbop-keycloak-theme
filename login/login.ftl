@@ -13,7 +13,7 @@
 <body>
   <div class="page-container">
     <div class="login-header">
-      <img class="icon" src="${url.resourcesPath}/img/obi_logo.svg" alt="OBI logo">
+      <a href="/"><img class="icon" src="${url.resourcesPath}/img/obi_logo.svg" alt="OBI logo"></a>
     </div>
     <div class="login-wrapper">
       <div class="login-container">
