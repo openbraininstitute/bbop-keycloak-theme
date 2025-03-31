@@ -1,4 +1,6 @@
 body {
+  background: url('../img/hippocampus.png') no-repeat center right fixed #002766;
+  background-size: contain;
   font-family: "Titillium Web", sans-serif;
   height: 100vh;
   margin: 0;
@@ -41,10 +43,11 @@ body {
 }
 
 .login-header img.icon {
+  position: absolute;
   height: 56px;
   width: 176px;
-  top: 2.4rem;
-  left: 2.4rem;
+  top: 35px;
+  left: 35px;
 }
 
 .login-title,
