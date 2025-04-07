@@ -1,6 +1,7 @@
 body {
   background: url('../img/hippocampus.png') no-repeat center right fixed #002766;
   background-size: contain;
+  background: #000;
   font-family: "Titillium Web", sans-serif;
   height: 100vh;
   margin: 0;
