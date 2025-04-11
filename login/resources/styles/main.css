@@ -171,3 +171,7 @@ body {
 .display-none {
   display: none;
 }
+
+#updateProfile {
+  display: none;
+}
