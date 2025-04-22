@@ -12,6 +12,7 @@ Adapted from: https://raw.githubusercontent.com/keycloak/keycloak/refs/heads/arc
 .login-pf body {
     background: url('../img/hippocampus.png') no-repeat center right fixed #002766;
     background-size: contain;
+    font-family: "Titillium Web", sans-serif;
 }
 
 textarea.pf-c-form-control {
